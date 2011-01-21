@@ -32,14 +32,14 @@
 #require_recipe "solr"
 
 #uncomment to run the resque recipe
-#require_recipe "resque"
+require_recipe "resque"
 
 #uncomment to run the resque-web recipe
-#require_recipe "resque_web"
+require_recipe "resque_web"
 #require_recipe "mysql2"
 require_recipe "ey_http_replicator"
 
-#require_recipe "resque-scheduler"
+require_recipe "resque-scheduler"
 #require_recipe "pyqt4"
 #uncomment to run the riak recipe
 #require_recipe "riak"
